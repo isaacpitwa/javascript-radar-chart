@@ -30,7 +30,7 @@ anychart.onDocumentReady(function () {
     var chart = anychart.radar();
 
     // set chart title
-    chart.title("Starter Pokemon Comparison Chart");
+    chart.title("Starter Pokemon Comparison Chart").legend(true);
 
     // set chart yScale settings
     chart.yScale()
@@ -40,11 +40,11 @@ anychart.onDocumentReady(function () {
     // color alternating cells
     chart.yGrid().palette(["gray 0.1", "gray 0.2"]);
     // create first series
-    chart.line(data1)
-    // create second series
-    chart.line(data2)
-    // create third series
-    chart.line(data3)
+    // chart.line(data1)
+    // // create second series
+    // chart.line(data2)
+    // // create third series
+    // chart.line(data3)
 
     // create first series
     chart.area(data1).name('Charmander').markers(true).fill("#E55934", 0.3).stroke("#E55934")
