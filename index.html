@@ -51,7 +51,8 @@
             .minimum(35)
             .maximum(65)
             .ticks({'interval':5});
-
+            // color alternating cells
+            chart.yGrid().palette(["gray 0.1", "gray 0.2"]);
             // create first series
             chart.line(data1)
             // create second series
