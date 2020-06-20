@@ -1,4 +1,4 @@
 # javascript-radar-chart
 Using core javascript to create a radar chart
 
-![Alt text](/screenshot/screenshot1.png?raw=true "Screenshot")
+![Alt 'Javasript Radar Chart'](/screenshot/screenshot1.png?raw=true "Javasript Radar Chart")
