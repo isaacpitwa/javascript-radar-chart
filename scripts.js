@@ -46,6 +46,14 @@ anychart.onDocumentReady(function () {
     // create third series
     chart.line(data3)
 
+    // create first series
+    chart.area(data1).name('Charmander').markers(true).fill("#E55934", 0.3).stroke("#E55934")
+    // create second series
+    chart.area(data2).name('Bulbasaur').markers(true).fill("#9BC53D", 0.3).stroke("#9BC53D")
+    // create third series
+    chart.area(data3).name('Squirtle').markers(true).fill("#5BC0EB", 0.3).stroke("#5BC0EB")
+
+
     // set container id for the chart
     chart.container('container');
     // initiate chart drawing
